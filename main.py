@@ -1,2 +1,7 @@
 #!/usr/bin/env python3
-print("Hello World!")
+def myfunc():
+  global x
+  x = "Hello World!"
+
+myfunc()
+print(x)
