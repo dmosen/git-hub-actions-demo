@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-def myfunc():
-  global x
-  x = "Hello World!"
-
-myfunc()
-print(x)
+#!/usr/bin/env python2
+name = input("Name: ")
+print 'Hello {}!'.format(name)
